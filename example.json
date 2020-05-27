@@ -1,0 +1,39 @@
+{
+  "global_attributes": {
+    "file_id": "file1.jpg"
+  },
+  "fields":[
+    {
+      "field_name": "class1",
+      "key_id": [],
+      "key_text": [],
+      "value_id": [1, 2],
+      "value_text": ["sample1", "sample2"]
+    },
+    {
+      "field_name": "class2",
+      "key_id": [],
+      "key_text": [],
+      "value_id": [3],
+      "value_text": ["sample3"]
+    }
+  ],
+
+  "text_boxes":[
+    {
+      "id": 1,
+      "bbox": [10, 10, 50, 20],
+      "text": "sample1"
+    },
+    {
+      "id": 2,
+      "bbox": [55, 10, 100, 20],
+      "text": "sample2"
+    },
+    {
+      "id": 3,
+      "bbox": [50, 30, 100, 40],
+      "text": "sample3"
+    }
+  ]
+}
